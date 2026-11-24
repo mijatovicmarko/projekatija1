@@ -96,13 +96,13 @@ h2 {
     font-size: 16px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
-
+img{
+    width: 400px;
+    height: 280px;
+    position: relative;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.8);
+    margin: 0px 5px;
 }
 
 img:hover {
@@ -124,7 +124,6 @@ footer {
 
 
 @media (max-width: 768px) {
-    
     header nav ul li {
         display: block;
         margin-bottom: 10px;
